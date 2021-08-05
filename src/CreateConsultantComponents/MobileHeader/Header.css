@@ -1,0 +1,97 @@
+.head-stepper-font {
+  font-family: oswald;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.mobileHead {
+  margin-left: -2vw;
+  width: 170vw;
+  white-space: nowrap;
+}
+.bdmobileHead {
+  margin-left: -52vw;
+  width: 190vw;
+  white-space: nowrap;
+}
+.pkmobileHead {
+  margin-left: -105vw;
+  width: 190vw;
+  white-space: nowrap;
+}
+/*
+.LogoIcon svg {
+  width: 375px;
+  height: auto;
+}
+.arrowIcon {
+  margin-top: -11vh;
+  margin-left: -2.5vh;
+}
+*/
+
+.AgreementHeader {
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: oswald;
+  margin-left: 16%;
+  margin-top: -25px;
+  width: 100% !important;
+}
+
+.LogoIcon svg {
+  width: 320px;
+  height: auto;
+}
+
+.mobileHeaderHeight {
+  height: 110px !important;
+  margin-bottom: 1.3em !important;
+  background: #e8e0dd;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+  padding-bottom: 40px !important;
+}
+
+.mobileHeaderHeight1 {
+  height: 50px !important;
+  margin-bottom: 1.3em !important;
+  background: #e8e0dd;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+  padding-bottom: 40px !important;
+}
+
+.MuiPaper-root {
+  background: transparent !important;
+}
+
+@media (max-width: 1199px) {
+  .LogoIcon svg {
+    width: 265px;
+    height: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .LogoIcon svg {
+    width: 100%;
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .LogoIcon svg {
+    height: 50px;
+  }
+}
+
+.MuiStepIcon-active > .MuiStepIcon-text {
+  fill: white !important ;
+}

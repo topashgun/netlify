@@ -1,0 +1,119 @@
+.otpContainer {
+  margin-top: 4em;
+  margin-left: 1em;
+}
+.otpInput {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  width: 5em !important;
+  height: 5em !important;
+  margin-bottom: 0.5em;
+  border-radius: 10 !important;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+.otpInput:focus {
+  border-color: #d8c5a6 !important;
+  text-align: center;
+}
+.otpInput1 {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  width: 5em !important;
+  height: 5em !important;
+  margin-bottom: 0.5em;
+  border-radius: 10 !important;
+  font-size: 15px;
+  background: #dcba80 !important;
+  text-align: center;
+  font-weight: 700;
+}
+.otpInput1:focus {
+  border-color: #d8c5a6 !important;
+  background: #dcba80 !important;
+  text-align: center;
+}
+
+.otpLeftMargin {
+  margin-left: 2em;
+}
+
+.otpSubText {
+  font-size: calc(10px+0.7vw);
+  font-family: Domine;
+  width: 40vh;
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.timer {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-left: 5em;
+  color: #dcba80;
+  font-family: oswald;
+}
+.resendEmail {
+  font-size: 1.2em;
+  margin-top: 2em;
+  margin-left: 7em;
+  color: #dcba80;
+  font-family: Domine;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resendTextArea {
+  background: #e8e0dd;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: Domine;
+  margin-top: 1em;
+  width: 38vh;
+  text-align: center;
+}
+.verifyDivOffset {
+  margin-left: 0em;
+}
+@media only screen and (max-width: 768px) {
+  .verifyDivOffset {
+    margin-left: 5.5em;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .verifyDivOffset {
+    margin-left: 0em;
+  }
+  .otpLeftMargin {
+    margin-left: 1em;
+  }
+  .otpContainer {
+    margin-top: 2em;
+    margin-left: 1em;
+  }
+  .otpSubText {
+    font-size: calc(5px+0.7vw);
+    font-family: Domine;
+    width: 45vh;
+    margin-top: 1em;
+    text-align: center;
+  }
+  .timer {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-left: 4em;
+    color: #dcba80;
+    font-family: oswald;
+  }
+  .resendEmail {
+    font-size: 1.2em;
+    margin-top: 2em;
+    margin-left: 5em;
+    color: #dcba80;
+    font-family: Domine;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

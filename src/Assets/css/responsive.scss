@@ -1,0 +1,509 @@
+/*Common Styles*/
+@media (min-width: 1280px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1240px;
+  }
+}
+@media (min-width: 1500px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1500px;
+  }
+}
+@media (max-width: 1919px) {
+  .wrapper .partners:before {
+    width: 180px;
+    height: 335px;
+  }
+  .wrapper .partners:after {
+    width: 180px;
+    height: 380px;
+  }
+  .wrapper .whyyou-blk:before {
+    top: -49px;
+    height: 49px;
+  }
+}
+@media (max-width: 1599px) {
+  .wrapper .banner-blk .banner-bg {
+    height: 565px;
+  }
+  .wrapper .banner-blk .banner-bg h1 {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .wrapper h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .wrapper .whyyou-blk figcaption {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 15px 35px 0;
+  }
+  .wrapper .whyscout {
+    padding: 50px 0 200px;
+  }
+  .wrapper .whyscout h2 {
+    padding: 0 0 30px;
+  }
+  .wrapper .whyscout h3 {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0 0 15px 40px;
+  }
+  .wrapper .whyscout h3::before {
+    top: 18px;
+    width: 30px;
+    height: 4px;
+  }
+  .wrapper .whyscout ul li {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .wrapper .whyscout ul {
+    padding: 0 0 30px 60px;
+  }
+  .wrapper .howdoes {
+    padding: 150px 0 50px;
+  }
+  .wrapper .partners {
+    padding: 50px 0 200px;
+  }
+  .wrapper .partners p {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 540px;
+  }
+  .wrapper .partners:before {
+    width: 100px;
+    height: 185px;
+    top: -30px;
+  }
+  .wrapper .partners:after {
+    width: 100px;
+    height: 205px;
+  }
+  .wrapper .partners .gray-box h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .wrapper .partners .gray-box p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .wrapper .partners .youus {
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .wrapper .partners .gray-box {
+    min-height: 300px;
+  }
+  .wrapper .havemore {
+    padding: 50px 0;
+  }
+  .wrapper .hearfrom {
+    padding: 50px 0 80px;
+  }
+  .wrapper .letsget {
+    padding: 50px 0;
+  }
+  .wrapper .havemore .accordion-button {
+    font-size: 24px;
+    line-height: 38px;
+    padding: 20px;
+  }
+  .wrapper .havemore .accordion-body {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 80px 20px 20px;
+  }
+  .wrapper .letsget h4 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .wrapper .hearfrom .hearfrom-slide {
+    padding: 0;
+  }
+  .wrapper .hearfrom .hearfrom-slide p {
+    padding: 10px 0 20px;
+  }
+  .wrapper .hearfrom .slick-dots {
+    bottom: -20px;
+  }
+  .wrapper .banner-blk {
+    padding-bottom: 230px;
+  }
+  .wrapper .whyyou-blk:before {
+    top: -39px;
+    height: 39px;
+  }
+  .consult-rgt-dts {
+    width: 348px;
+    height: 400px;
+    padding: 0 30px;
+  }
+  .wrapper .whyyou-blk {
+    padding: 100px 0;
+  }
+  .consult-rgt-dts h5,
+  .consult-lft-dts h5 {
+    font-size: 18px;
+  }
+  .consult-rgt-dts p,
+  .wrapper .howdoes .consult-lft-dts p {
+    font-size: 17px;
+  }
+  .wrapper .partners:after {
+    bottom: 100px;
+  }
+  .wrapper .havemore {
+    padding: 170px 0 50px;
+  }
+  .consult-lft-dts {
+    width: 330px;
+    height: 415px;
+    padding: 0 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .wrapper .banner-blk .banner-bg {
+    height: 250px;
+    background-size: cover;
+  }
+  .wrapper .banner-blk .banner-bg h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .back-btn {
+    padding-top: 5px !important;
+  }
+  .wrapper .whyyou-blk:before {
+    top: -24px;
+    height: 24px;
+  }
+  .wrapper .hearfrom .hearfrom-slide {
+    max-width: 700px;
+  }
+  .wrapper .hearfrom .slick-prev {
+    left: 15px;
+  }
+  .wrapper .hearfrom .slick-next {
+    right: 15px;
+  }
+  .wrapper .banner-blk {
+    padding-bottom: 20px;
+  }
+  .consult-rgt-dts,
+  .consult-lft-dts {
+    display: none;
+  }
+  .wrapper .whyyou-blk {
+    padding: 40px 0;
+  }
+  .wrapper .whyscout {
+    padding: 50px 0;
+  }
+  .wrapper .howdoes {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 767px) {
+  .sc-logo {
+    text-align: center;
+    img {
+      width: 200px;
+    }
+  }
+  .back-btn {
+    padding-top: 0 !important;
+  }
+  footer {
+    text-align: center;
+  }
+  .wrapper header .btn {
+    float: right;
+    margin-right: 0;
+    margin-top: -10px;
+  }
+  .wrapper .whyyou-blk .whyyou-list {
+    justify-content: normal;
+    display: initial;
+  }
+  .wrapper .whyyou-blk .whyimg1 img {
+    height: 125px;
+  }
+  .wrapper .whyyou-blk .whyimg2 img {
+    height: 130px;
+  }
+  .wrapper .whyyou-blk .whyimg2 img {
+    height: 130px;
+  }
+  .wrapper .whyyou-blk .whyimg3 img {
+    height: 150px;
+  }
+  .wrapper .whyyou-blk .whyimg1,
+  .wrapper .whyyou-blk .whyimg2,
+  .wrapper .whyyou-blk .whyimg3 {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 30px;
+  }
+  .whyimg {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .wrapper .whyyou-blk figcaption {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding: 0 15px 0 0;
+  }
+  .wrapper .howdoes .slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+  .wrapper .howdoes .slick-dots li button {
+    width: auto;
+    height: auto;
+    padding: 0 15px;
+  }
+  .wrapper .howdoes .slick-dots li button:before {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    opacity: 1;
+    color: #8d8681;
+  }
+  .wrapper .howdoes .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #fff;
+    font-size: 15px;
+  }
+  .wrapper .howdoes .slick-dots {
+    bottom: 0;
+  }
+  .wrapper .howdoes .btn-primary {
+    margin-top: 40px;
+  }
+  .wrapper .whyyou-blk:before {
+    background-size: cover;
+  }
+  .wrapper .partners .gray-box {
+    margin: 0 0 15px;
+  }
+  .wrapper .hearfrom .hearfrom-slide {
+    text-align: center;
+  }
+  .wrapper .hearfrom .hearfrom-slide img {
+    display: inline-block;
+  }
+  .wrapper .letsget h4 {
+    padding: 0 0 0 20px;
+  }
+  .wrapper .letsge .btn {
+    margin-left: 20px;
+  }
+  .wrapper .hearfrom .hearfrom-slide .hearfrom-img {
+    padding-right: 0;
+  }
+  .wrapper header .btn {
+    float: none;
+    margin-top: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid #fff;
+    z-index: 1;
+    width: 100%;
+  }
+  i.ic-arrow {
+    display: inline-block;
+  }
+}
+@media (max-width: 479px) {
+  .wrapper header {
+    padding: 25px 15px 15px;
+  }
+  .wrapper footer .join-mail p {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 20px 15px 10px;
+  }
+  .wrapper footer .form-inline {
+    padding: 0 15px;
+  }
+  .wrapper footer .footmenu {
+    padding: 0 0 50px;
+  }
+  .wrapper footer p em {
+    padding: 0 15px;
+  }
+  .wrapper footer {
+    padding: 20px 0 200px;
+  }
+  .banner-blk {
+    padding: 120px 15px 100px;
+    position: relative;
+  }
+  .wrapper .banner-blk .banner-bg h1 {
+    font-size: 30px;
+    line-height: 40px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    text-align: center;
+    width: 100%;
+    color: #241f20;
+  }
+  .wrapper .banner-blk .btn-secondary {
+    color: #241f20;
+    border-color: #241f20;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    margin: 0 !important;
+    z-index: 1;
+    transform: translate(-50%, 0);
+  }
+  .wrapper .banner-blk p.bdes {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .back-btn {
+    margin-top: -10px;
+  }
+  .get-start {
+    display: none;
+  }
+  .wrapper h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .wrapper .whyyou-blk {
+    padding: 0 0 10px;
+  }
+  .wrapper .whyscout {
+    padding: 50px 15px;
+  }
+  .wrapper .whyscout h3::before {
+    display: none;
+  }
+  .wrapper .whyscout ul {
+    padding: 0 0 20px 50px;
+  }
+  .wrapper .partners {
+    padding: 50px 15px;
+  }
+  .wrapper .banner-blk {
+    padding-bottom: 80px;
+  }
+  .wrapper h2 {
+    padding: 0 0 20px;
+  }
+  .wrapper .partners .gray-box .ic-gray-box {
+    display: none;
+  }
+  .wrapper .partners .gray-box {
+    min-height: inherit;
+    padding: 30px !important;
+    border: 0;
+    text-align: center;
+  }
+  .wrapper .partners .youus {
+    display: none !important;
+  }
+  .wrapper .partners:before {
+    width: 180px;
+    height: 335px;
+    top: 180px;
+    z-index: 0;
+    right: 0;
+  }
+  .wrapper .partners:after {
+    width: 180px;
+    height: 380px;
+    z-index: -1;
+    left: -50px;
+  }
+  .wrapper .partners .btn {
+    margin-top: 30px;
+    width: 200px;
+  }
+  .wrapper .hearfrom {
+    padding: 50px 15px 80px;
+  }
+  .wrapper .hearfrom .hearfrom-slide img {
+    width: 260px;
+  }
+  .wrapper .hearfrom .hearfrom-slide p {
+    padding: 10px 30px 20px;
+  }
+  .slick-prev,
+  .slick-next {
+    top: 20% !important;
+  }
+  .wrapper .havemore .accordion-button {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px 0 15px 10px;
+  }
+  .wrapper .havemore .accordion-body {
+    padding: 0 50px 15px 15px;
+  }
+  .wrapper .havemore {
+    padding: 50px 15px 0;
+  }
+  .wrapper .letsget h4 {
+    font-size: 34px;
+    line-height: 46px;
+  }
+  .wrapper .letsget {
+    padding: 30px 15px;
+  }
+  .wrapper .letsget .btn {
+    width: 200px;
+    margin-left: 15px;
+  }
+  .wrapper .letsget .btn-secondary {
+    background-color: #241f20;
+  }
+  .wrapper .letsget .letsget-banner {
+    height: 250px;
+    background-size: cover;
+  }
+  .wrapper .hearfrom .slick-prev {
+    left: 0;
+  }
+  .wrapper .hearfrom .slick-next {
+    right: 0;
+  }
+  .wrapper .whyscout h3 {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 15px 0;
+  }
+  .wrapper .whyscout ul {
+    padding: 0 0 15px 10px;
+  }
+  .wrapper .whyscout ul li {
+    padding: 0 15px 10px 25px;
+  }
+  .wrapper footer .button-v2 {
+    bottom: 75px;
+  }
+}

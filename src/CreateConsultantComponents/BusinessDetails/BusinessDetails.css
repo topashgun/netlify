@@ -1,0 +1,818 @@
+.BDcomponentMargin {
+  margin-top: 32px;
+}
+.BDmobileComponent {
+  margin-left: 5px;
+  margin-bottom: 2em;
+  margin-top: 7em;
+}
+.BDhead1 {
+  font-size: 30px;
+  font-weight: "bold";
+  font-family: oswald;
+}
+.BDstaticText3 {
+  font-size: 16px;
+  font-family: Domine;
+  margin-top: 12px;
+}
+.urlRow {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.urlRow1 {
+  display: flex;
+  margin-top: 30px;
+}
+.BDstaticText4 {
+  font-size: 16px;
+  font-family: Domine;
+  margin-top: 0px !important;
+  font-weight: bold;
+}
+.BDstaticText5 {
+  font-size: 16px;
+  font-family: Domine;
+  margin-top: 18px !important;
+  font-weight: bold;
+}
+.customURL {
+  border-width: 1px;
+  border-color: #d8c5a6;
+  border-radius: 0;
+  width: 22vw !important;
+  height: 60px !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Domine;
+  margin-left: -5vw;
+}
+.customURL:focus {
+  border-color: #d8c5a6;
+}
+
+.customURL::placeholder {
+  font-weight: 100;
+}
+
+.availableIcon {
+  margin-top: 0;
+  color: #4ba380;
+}
+
+.availableText {
+  margin-top: 0;
+  font-family: oswald;
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+.customURLRed {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 1 !important;
+  width: 22vw !important;
+  height: 60px !important;
+  margin-bottom: 8px;
+  margin-top: 0;
+  /* margin-top: 2.3vw; */
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Domine;
+  border-radius: 0 !important;
+  margin-left: -5vw;
+}
+.customURLRed:focus {
+  border-color: red;
+  border-radius: 0 !important;
+}
+
+.customURLRed::placeholder {
+  font-weight: 100;
+}
+.notAvailableIcon {
+  margin-top: 0;
+  color: rgb(236, 85, 85);
+}
+
+.businessHead {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: oswald;
+  margin-top: 66px;
+}
+.businessButton1 {
+  background: #dcba80;
+  text-align: center;
+  padding-top: 1.2em;
+  padding-bottom: 1.1em;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+  font-size: 18px;
+  margin-top: 8px;
+  font-family: Domine;
+}
+.businessButton1:hover {
+  cursor: pointer;
+}
+
+.businessButton2 {
+  background: #dcba80;
+  text-align: center;
+  padding-top: 1.1em;
+  padding-bottom: 1em;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-top: 8px;
+  font-family: Domine;
+}
+
+.businessButton2:hover {
+  cursor: pointer;
+}
+
+.iconBusiness {
+  margin-right: 5px;
+  margin-top: -5px !important;
+}
+
+.businessButtonNotActive1 {
+  background: #f7f3f2;
+  color: #707070;
+  border-width: 2px;
+  border-color: #d8c5a6;
+  border-style: solid;
+  padding-top: 1em;
+  padding-bottom: 0.95em;
+}
+.businessButtonNotActive1:hover {
+  cursor: pointer;
+}
+
+.businessButtonNotActive {
+  background: #f7f3f2;
+  color: #707070;
+  border-width: 2px;
+  border-color: #d8c5a6;
+  border-style: solid;
+  padding-top: 1.1em;
+  padding-bottom: 1em;
+}
+.businessButtonNotActive:hover {
+  cursor: pointer;
+}
+.ssn {
+  font-family: oswald;
+  font-size: 24px;
+  margin-top: 24px;
+  font-weight: 400;
+}
+.ssnSubtext {
+  font-family: Domine;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.ssnInput {
+  border-width: 1px;
+  border-color: #d8c5a6;
+  border-radius: 0;
+  width: 400px !important;
+  height: 72px !important;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Domine;
+  letter-spacing: 16px !important;
+  text-align: center;
+}
+.ssnInput:focus {
+  border-color: #d8c5a6;
+}
+
+.ssnInputRed {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 1 !important;
+  width: 400px !important;
+  height: 72px !important;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Domine;
+  border-radius: 0 !important;
+  letter-spacing: 16px !important;
+  text-align: center;
+}
+
+.ssnInputRed:focus {
+  border-color: red;
+  border-radius: 0 !important;
+}
+
+.ssnInput::placeholder,
+.ssnInputRed ::placeholder {
+  font-weight: 100;
+  word-spacing: normal;
+  letter-spacing: 0 !important;
+  text-align: left;
+}
+input::-webkit-input-placeholder {
+  letter-spacing: 0 !important;
+  text-align: left;
+}
+
+.entitySubtext {
+  background: #e8e0dd;
+  margin-top: 8px !important;
+  margin-left: 8px;
+  padding: 24px;
+  font-size: 18px !important;
+  width: 504px !important;
+  font-family: Domine !important;
+}
+
+.errorMesSubtext {
+  font-size: 12px;
+  color: red;
+  font-family: Domine;
+  width: 1600px !important;
+  margin-top: 24px;
+}
+
+.offsetLeftAvailableIcon {
+  margin-left: 0;
+  margin-top: 0;
+}
+.urlLoader {
+  margin-top: 0;
+}
+
+.searchButton {
+  background: #dcba80;
+  text-align: center;
+  border: 0px solid #dcba80;
+  width: 60px;
+  height: 60px;
+  margin-top: 0;
+  margin-left: 5px;
+}
+.searchButton:hover {
+  cursor: pointer;
+}
+.searchIcon {
+  height: 30px;
+  width: 30px;
+}
+
+.BDerrorMes {
+  font-size: 12px;
+  color: red;
+  font-family: Domine;
+  width: 1600px !important;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: -5.5vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .business-margin-url{
+    margin-left: 0% !important;
+  }
+  .ipad-not-available-text {
+    margin-top: 1px !important;
+    margin-left: 10px !important;
+  }
+  .mobileAvailabilityText {
+    margin-top: 5px;
+    position: relative;
+    left: 55%;
+  }
+  .mobileNotAvailabilityText{
+    margin-top: 5px;
+    position: relative;
+    left: 55%;
+  }
+  .searchButton {
+    background: #dcba80;
+    text-align: center;
+    border: 0px solid #dcba80;
+    width: 60px;
+    height: 56px;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+  .BDstaticText4 {
+    font-size: 16px;
+    font-family: Domine;
+    margin-top: 0px !important;
+    font-weight: bold;
+  }
+  .BDstaticText5 {
+    font-size: 16px;
+    font-family: Domine;
+    margin-top: 38px !important;
+    font-weight: bold;
+  }
+  .BDcomponentMargin {
+    margin-top: 32px;
+    margin-left: 2.5em;
+  }
+  .staticText4 {
+    font-size: 16px;
+    font-family: Domine;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+
+  .customURL {
+    border-width: 1px;
+    border-color: #d8c5a6;
+    border-radius: 0;
+    width: 296px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+    margin-left: 16px;
+  }
+  .customURL:focus {
+    border-color: #d8c5a6;
+  }
+
+  .customURL::placeholder {
+    font-weight: 100;
+  }
+  .customURLRed {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 1 !important;
+    width: 336px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+    border-radius: 0 !important;
+    margin-left: 16px;
+  }
+  .customURLRed:focus {
+    border-color: red;
+    border-radius: 0 !important;
+  }
+
+  .customURLRed::placeholder {
+    font-weight: 100;
+  }
+
+  .availableIcon {
+    color: #4ba380;
+  }
+  .notAvailableIcon {
+    margin-top: 0;
+    color: rgb(236, 85, 85);
+  }
+
+  .availableText {
+    margin-top: -23px;
+    font-family: oswald;
+    font-size: 16px;
+    margin-left: 35px;
+    width: 160px;
+  }
+
+  .businessHead {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: oswald;
+    margin-top: 10px;
+  }
+
+  .BDerrorMes {
+    font-size: 12px;
+    color: red;
+    font-family: Domine;
+    width: 1600px !important;
+    margin-left: 5px !important;
+    margin-top: 3px !important;
+  }
+
+  .businessButton1 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: Domine;
+    width: 100%;
+  }
+  .businessButton1:hover {
+    cursor: pointer;
+  }
+
+  .businessButton2 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: Domine;
+    width: 100%;
+  }
+
+  .businessButton2:hover {
+    cursor: pointer;
+  }
+
+  .iconBusiness {
+    margin-top: -2px;
+    margin-right: 5px;
+  }
+
+  .businessButtonNotActive {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+  }
+  .businessButtonNotActive:hover {
+    cursor: pointer;
+  }
+  .businessButtonNotActive1 {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: Domine;
+    width: 100%;
+  }
+  .businessButtonNotActive1:hover {
+    cursor: pointer;
+  }
+  .ssn {
+    font-family: oswald;
+    font-size: 20px;
+    margin-top: 24px;
+    font-weight: 400;
+  }
+
+  .ssnInput {
+    border-width: 1px;
+    border-color: #d8c5a6;
+    border-radius: 0;
+    width: 336px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+  }
+  .ssnInput:focus {
+    border-color: #d8c5a6;
+  }
+
+  .ssnInputRed {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 1 !important;
+    width: 336px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+    border-radius: 0 !important;
+  }
+
+  .ssnInputRed:focus {
+    border-color: red;
+    border-radius: 0 !important;
+  }
+  .ssnSubtext {
+    font-family: Domine;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .entitySubtext {
+    background: #e8e0dd;
+    margin-top: 16px;
+    margin-left: 8px;
+    padding: 24px;
+    font-size: 16px;
+    width: 512px;
+    font-family: Domine !important;
+  }
+
+  .errorMesSubtext {
+    font-size: 12px;
+    color: red;
+    font-family: Domine;
+    width: 1600px !important;
+    margin-top: 24px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .searchButton {
+    background: #dcba80;
+    text-align: center;
+    border: 0px solid #dcba80;
+    width: 60px;
+    height: 56px;
+    margin-top: 16px;
+    margin-left: 5px;
+  }
+  .customURL {
+    border-width: 1px;
+    border-color: #d8c5a6;
+    border-radius: 0;
+    width: 70vw !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+    margin-left: 10px;
+  }
+  .customURL:focus {
+    border-color: #d8c5a6;
+  }
+
+  .customURL::placeholder {
+    font-weight: 100;
+  }
+  .customURLRed {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 1 !important;
+    width: 85vw !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+    border-radius: 0 !important;
+    margin-left: 10px;
+  }
+  .customURLRed:focus {
+    border-color: red;
+    border-radius: 0 !important;
+  }
+
+  .customURLRed::placeholder {
+    font-weight: 100;
+  }
+
+  .availableIcon {
+    margin-top: 74px;
+    color: #4ba380;
+  }
+  .notAvailableIcon {
+    margin-top: 74px;
+    color: rgb(236, 85, 85);
+  }
+
+  .availableText {
+    margin-top: 115px !important;
+    font-family: oswald;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 160px;
+  }
+
+  .businessHead {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: oswald;
+    margin-top: -30px;
+  }
+
+  .BDerrorMes {
+    font-size: 12px;
+    color: red;
+    font-family: Domine;
+    width: 1600px !important;
+    margin-left: -2px !important;
+    margin-top: 1px !important;
+  }
+
+  .businessButton1 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    color: white;
+    margin-top: 8px;
+    font-family: Domine;
+    font-size: 16px;
+    width: 115%;
+    height: 50px;
+  }
+  .businessButton1:hover {
+    cursor: pointer;
+  }
+
+  .businessButton2 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    color: white;
+    margin-top: 8px;
+    font-family: Domine;
+    font-size: 16px;
+    width: 115%;
+    height: 50px;
+  }
+
+  .businessButton2:hover {
+    cursor: pointer;
+  }
+
+  .iconBusiness {
+    margin-top: -2px;
+    margin-right: 5px;
+  }
+
+  .businessButtonNotActive {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    font-family: Domine;
+    font-size: 16px;
+    width: 115%;
+    height: 50px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+  }
+  .businessButtonNotActive:hover {
+    cursor: pointer;
+  }
+
+  .ssn {
+    font-family: oswald;
+    font-size: 20px;
+    margin-top: 2em;
+    font-weight: 400;
+  }
+
+  .ssnInput {
+    border-width: 1px;
+    border-color: #d8c5a6;
+    border-radius: 0;
+    width: 97% !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+  }
+  .ssnInput:focus {
+    border-color: #d8c5a6;
+  }
+
+  .ssnInputRed {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 1 !important;
+    width: 97% !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Domine;
+    border-radius: 0 !important;
+  }
+
+  .ssnInputRed:focus {
+    border-color: red;
+    border-radius: 0 !important;
+  }
+  .ssnSubtext {
+    font-family: Domine;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  .entitySubtext {
+    background: #e8e0dd;
+    margin-top: 16px;
+    margin-left: 12px;
+    padding: 24px;
+    font-size: 13px;
+    width: 91% !important;
+    font-family: Domine !important;
+    margin-bottom: 4em;
+  }
+
+  .errorMesSubtext {
+    font-size: 12px;
+    color: red;
+    font-family: Domine;
+    width: 1600px !important;
+    margin-top: 24px;
+  }
+
+  .mobileAvailabilityIcon {
+    width: 16px !important;
+    margin-top: -10em;
+  }
+
+  .urlLoader {
+    margin-top: 3.5em;
+    margin-top: -5.5em;
+    margin-left: 1em;
+  }
+  .mobileAvailabilitySubText {
+    width: 16px !important;
+    margin-top: -12.5em;
+  }
+  .mobileAvailabilityText {
+    margin-top: 88px;
+    margin-left: -80px ;
+  }
+  .mobileNotAvailabilityText{
+    margin-top: 88px;
+    margin-left: -100px ;
+  }
+
+  .mobileSsnToggle {
+    width: 45%;
+    margin-top: 8px;
+  }
+  .staticText3 {
+    font-size: 12px;
+    font-family: Domine;
+    margin-top: 12px;
+  }
+
+  .staticText4 {
+    font-size: 16px;
+    font-family: Domine;
+    margin-top: 24px;
+    font-weight: bold;
+  }
+  .mobileoverFlowBusinessDetails {
+    overflow: hidden;
+  }
+  .businessButtonNotActive1 {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .businessButtonNotActive1:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1440px) {
+   .business-margin-url{
+    margin-left: 10.66%;
+  }
+}

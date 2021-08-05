@@ -1,0 +1,638 @@
+.ReCAPTCHA {
+  transform: scale(1.33);
+  transform-origin: 0 0;
+  overflow: hidden;
+}
+.componentMargin1 {
+  margin-top: 20px;
+}
+.componentMargin2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.componentMargin3 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.componentMargin4 {
+  margin-top: 10px;
+  margin-bottom: 10em;
+}
+.componentMargin {
+  margin-top: 20px;
+}
+.head1 {
+  font-size: 34px;
+  font-family: oswald;
+}
+.email1 {
+  margin-top: 48px;
+}
+.emailLabel {
+  margin-bottom: 8px;
+  color: grey;
+  font-family: oswald;
+}
+.SubText {
+  font-size: 15px;
+  font-family: Domine;
+}
+.Input {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 400px !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+.Input:focus {
+  border-color: #d8c5a6 !important;
+}
+.Red {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 400px !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+
+.Red:focus {
+  border-color: red !important;
+}
+.errorMes {
+  font-size: 12px;
+  color: red;
+  font-family: Domine;
+  width: 272px;
+}
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.InputMargin {
+  margin-bottom: 15px;
+}
+/* confirm details passwords page */
+.head2 {
+  font-size: 34px;
+  font-weight: 400;
+  font-family: oswald;
+}
+.staticText1 {
+  font-size: 20px;
+  margin-top: 12px;
+  font-family: Domine;
+}
+.staticText2 {
+  font-size: 16px;
+  font-family: Domine;
+}
+.passwordForgotLink {
+  color: #dcba80;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Domine;
+}
+.passwordForgotLink:hover {
+  cursor: pointer;
+  font-family: Domine;
+}
+.password1 {
+  margin-top: 40px;
+}
+.passwordLabel {
+  margin-bottom: 8px;
+  color: grey;
+  font-family: oswald;
+}
+
+/* details display */
+
+.staticText3 {
+  font-size: 18px;
+  font-family: Domine;
+  margin-top: 12px;
+}
+
+.staticText4 {
+  font-size: 18px;
+  font-family: Domine;
+  margin-top: 48px;
+  font-weight: bold;
+}
+
+.displayArea {
+  background-color: #e8e0dd;
+  max-width: 1050px;
+  margin-top: 16px;
+  padding: 50px;
+}
+
+.head3 {
+  color: grey;
+  font-family: oswald;
+  font-size: 16px;
+}
+
+.dataText {
+  font-size: 18px;
+  font-family: Domine;
+  overflow-wrap: anywhere !important;
+  margin-top: 8px !important;
+}
+
+.marginHead {
+  margin-top: 64px;
+}
+
+/* edit cofirm details */
+
+.edit-Input {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 288px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+.edit-Input:focus {
+  border-color: #d8c5a6 !important;
+}
+.edit-Red {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 288px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 400 !important;
+}
+
+.edit-Red:focus {
+  border-color: red !important;
+}
+
+.edit-margin {
+  margin-top: 20px;
+}
+
+.edit-InputMargin {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.staticText5 {
+  font-family: oswald;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.edit-month {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 96px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+.edit-month:focus {
+  border-color: #d8c5a6 !important;
+}
+
+.edit-day {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 88px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+.edit-day:focus {
+  border-color: #d8c5a6 !important;
+}
+.edit-year {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 104px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+  margin-left:2px;
+}
+.edit-year:focus {
+  border-color: #d8c5a6 !important;
+}
+.edit-month-red {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 96px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+.edit-month-red :focus {
+  border-color: red !important;
+}
+
+.edit-day-red {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 88px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+.edit-day-red :focus {
+  border-color: red !important;
+}
+.edit-year-red {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 104px !important;
+  height: 56px !important;
+  margin-bottom: 8px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+  margin-left:2px;
+}
+.edit-year-red :focus {
+  border-color: red !important;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 13px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 32px;
+  padding: 16px;
+  padding-right: 32px;
+}
+
+.forgotPassowordContainer {
+  padding-top: 3em;
+  margin-bottom: 4em;
+}
+
+input:disabled {
+  cursor: not-allowed;
+}
+
+.forgotpasswordText1 {
+  font-size: 16px;
+  font-family: Domine;
+  margin-top: 10px;
+}
+
+/* @media only screen and (min-width: 768px) {
+  .displayArea {
+    background-color: #e8e0dd;
+    width: 850px;
+    height:336px;
+    margin-top: 16px;
+    padding-top: 48px;
+  }
+  .bottomMargin {
+    margin-bottom: 160px;
+  }
+} */
+
+@media only screen and (max-width: 550px) {
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+  .mobileDisplayColumnSpacing {
+    margin-left: 45px;
+  }
+
+  .emailLabel {
+    margin-bottom: 8px;
+  }
+  .InputMargin {
+    margin-bottom: 10px;
+  }
+  .head1 {
+    font-size: 33px;
+    font-weight: "bold";
+    font-family: oswald;
+  }
+  .mobileComponent {
+    margin-top: 20px;
+  }
+  .CEmobileComponent {
+    margin-top: 7em;
+    margin-bottom: 6em;
+  }
+  .mobileComponent1 {
+    margin-top: 7em;
+    margin-bottom: 6em;
+    margin-right: 10px;
+  }
+  .Input {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 320px !important;
+    height: 50px !important;
+    margin-bottom: 8px;
+  }
+  .Input:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .Red {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 320px !important;
+    height: 50px !important;
+    margin-bottom: 8px;
+  }
+
+  .Red:focus {
+    border-color: red !important;
+  }
+  .SubText {
+    font-size: 15px;
+    font-family: Domine;
+    width: 96% !important;
+    margin-left: 1.3%;
+  }
+  .passwordForgotLink {
+    font-family: Domine;
+  }
+  /* .head3 {
+    color: grey;
+    font-family: oswald;
+    font-size: 48px;
+  } */
+
+  .dataText {
+    font-size: 62px;
+    font-family: Domine;
+  }
+  /* .displayArea {
+    background-color: #e8e0dd;
+    width: 90%;
+    height:336px;
+    margin-top: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+  } */
+
+  .marginHead {
+    margin-top: 0;
+  }
+  .edit-Input {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 323px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+  }
+  .edit-Input:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .edit-Red {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 336px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+  }
+
+  .edit-Red:focus {
+    border-color: red !important;
+  }
+  .bottomMargin {
+    margin-bottom: 128px;
+  }
+  .mobileDate {
+    width: 110px !important;
+  }
+
+  /* .displayNote {
+    margin-top: 12px;
+    font-family: oswald;
+    font-weight: 200;
+    margin-bottom: 125px;
+    width: 1092px;
+  } */
+
+  .errorMes {
+    margin-left: 0px !important;
+    width: 320px !important;
+  }
+
+  .edit-month {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 90px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+  }
+  .edit-month:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .edit-month-red {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 90px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+  }
+  .edit-month-red :focus {
+    border-color: red !important;
+  }
+  .edit-day {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 80px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-left: 5px;
+  }
+  .edit-day:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .edit-day-red {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 80px !important;
+    height: 56px !important;
+    margin-bottom: 8px;
+    margin-left: 5px;
+  }
+  .edit-day-red :focus {
+    border-color: red !important;
+  }
+}
+
+.displayNote {
+  margin-top: 12px;
+  font-family: oswald;
+  font-weight: 200;
+}
+
+@media (max-width: 1199px) {
+  .displayArea {
+    padding: 30px;
+  }
+
+}
+@media (max-width: 991px) {
+  .email1 {
+    margin-top: 30px;
+  }
+  .head1,
+  .head2 {
+    font-size: 25px;
+  }
+  .staticText1 {
+    font-size: 18px;
+  }
+  .staticText2 {
+    font-size: 14px;
+  }
+  .componentMargin3 {
+    margin-top: 30px;
+  }
+  .staticText3 {
+    font-size: 16px;
+  }
+  .marginHead {
+    margin-top: 30px;
+  }
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+}
+@media (max-width: 768px) {
+  .componentMargin1,
+  .componentMargin2 {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .componentMargin3,
+  .componentMargin4 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30em;
+  }
+  .ReCAPTCHA {
+    transform: scale(1.33);
+    transform-origin: 0 0;
+    width: 310px !important;
+    overflow: hidden;
+  }
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+}
+@media (max-width: 639px) {
+  .mobileDisplayWidth {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .dataText {
+    font-size: 16px;
+  }
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .Input {
+    width: 96% !important;
+  }
+  .head1,
+  .head2 {
+    font-size: 28px;
+  }
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+}
+@media (max-width: 414px) {
+  .ReCAPTCHA {
+    transform: scale(1.2);
+    transform-origin: 0 0;
+    width: 304px !important;
+  }
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .ReCAPTCHA {
+    transform: scale(1.09);
+    transform-origin: 0 0;
+    width: 304px !important;
+  }
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+}
+@media (max-width: 360px) {
+  .edit-marginLeft {
+    margin-left: 0% !important;
+  }
+  .ReCAPTCHA {
+    transform: scale(1.04);
+    transform-origin: 0 0;
+    width: 304px !important;
+  }
+}
+/* @media (max-width: 1440px) {
+  .ReCAPTCHA {
+    transform: scale(1.65);
+    transform-origin: 0 0;
+    width: 245px;
+    overflow: hidden;
+  }
+} */
+
+#controllable-states-demo {
+  margin-left: -21px;
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+@media (max-width: 1440px) {
+  .edit-marginLeft {
+    margin-left: 13.66%;
+  }
+}

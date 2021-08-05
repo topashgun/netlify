@@ -1,0 +1,369 @@
+.AGcomponentMargin {
+  margin-top: 1em;
+}
+.AGmobileComponent {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 3em;
+  margin-top: 4em;
+}
+.AGhead1 {
+  font-size: calc(6px + 2vw);
+  font-weight: "bold";
+  font-family: oswald;
+}
+.agreementButton1 {
+  background: #dcba80;
+  text-align: center;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  font-family: Domine;
+  width: initial;
+}
+.agreementButton1:hover {
+  cursor: pointer;
+}
+
+.agreementButton2 {
+  background: #dcba80;
+  text-align: center;
+  padding-top: 0.9em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  margin-right: -0.6em;
+  font-family: Domine;
+  width: initial;
+}
+
+.agreementButton2:hover {
+  cursor: pointer;
+}
+
+.agreementButtonNotActive1 {
+  background: #f7f3f2;
+  color: #707070;
+  border-width: 2px;
+  border-color: #d8c5a6;
+  border-style: solid;
+  padding-top: 0.1em;
+  padding-bottom: 0.15em;
+  width: initial;
+}
+.agreementButtonNotActive1:hover {
+  cursor: pointer;
+}
+
+.agreementButtonNotActive2 {
+  background: #f7f3f2;
+  color: #707070;
+  border-width: 2px;
+  border-color: #d8c5a6;
+  border-style: solid;
+  padding-top: 0.8em;
+  padding-bottom: 0.85em;
+  width: initial;
+}
+.agreementButtonNotActive2:hover {
+  cursor: pointer;
+}
+
+.downloadButton {
+  cursor: pointer;
+  background: #e8e0dd;
+  font-family: oswald;
+  text-align: center;
+  margin-top: 1em;
+  width: initial;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #6e7071;
+  border: 1px solid #5d6163;
+}
+
+.agreementPolicy {
+  max-height: 550px;
+  border-width: 1px;
+  border-color: #d8c5a6;
+  border-style: solid;
+  background: white;
+  width: initial;
+  height: 30vw;
+  margin-top: 1em;
+  overflow-y: scroll;
+  font-family: Domine;
+  padding: 2em;
+  scroll-behavior: smooth;
+  /* font-size: calc(1px + 1vw); */
+}
+
+.agreementTitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+.agreementData {
+  font-size: 15px;
+}
+.acceptAgreement {
+  margin-top: 1em;
+  font-weight: bold;
+  margin-bottom: 6em;
+}
+.checkBoxAccept {
+  margin-top: -0.2em !important;
+  margin-left: -13px !important;
+}
+.checkboxText {
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .AGcomponentMargin {
+    margin-top: 3em;
+    margin-left: 2.5em;
+  }
+  .AGhead1 {
+    font-size: 35px;
+    font-weight: "bold";
+    font-family: oswald;
+  }
+  .componentMargin {
+    margin-top: 4em;
+    margin-left: 1em;
+  }
+  .agreementButton1 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 0.65em;
+    padding-bottom: 0.65em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 0.5em;
+    font-family: Domine;
+  }
+  .agreementButton1:hover {
+    cursor: pointer;
+  }
+
+  .agreementButton2 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    width: 16.2em;
+    color: white;
+    font-size: 1.1em;
+
+    margin-top: 0.5em;
+    font-family: Domine;
+  }
+
+  .agreementButton2:hover {
+    cursor: pointer;
+  }
+
+  .agreementButtonNotActive1 {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    padding-top: 0.55em;
+    padding-bottom: 0.55em;
+  }
+  .agreementButtonNotActive1:hover {
+    cursor: pointer;
+  }
+
+  .agreementButtonNotActive2 {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+  }
+  .agreementButtonNotActive2:hover {
+    cursor: pointer;
+  }
+
+  .downloadButton {
+    cursor: pointer;
+    background: #e8e0dd;
+    font-family: oswald;
+    text-align: center;
+    margin-top: 1em;
+    width: 650px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #6e7071;
+    border: 1px solid #5d6163;
+    font-size: 14px;
+  }
+
+  .agreementPolicy {
+    border-width: 1px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    background: white;
+    width: 650px;
+    height: 137vw;
+    margin-top: 1em;
+    overflow-y: scroll;
+    font-family: Domine;
+    padding: 1em;
+  }
+  .agreementTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .acceptAgreement {
+    margin-top: 2em;
+    font-weight: bold;
+  }
+  .checkBoxAccept {
+    margin-top: -0.2em !important;
+    margin-left: -11px !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .agreementButton1 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    color: white;
+    font-size: 0.67em;
+    margin-top: 0.5em;
+    font-family: Domine;
+    width: 105%;
+    font-weight: 600;
+  }
+  .agreementButton1:hover {
+    cursor: pointer;
+  }
+
+  .agreementButton2 {
+    background: #dcba80;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.4em;
+    color: white;
+    font-size: 0.67em;
+    margin-top: 0.5em;
+    font-family: Domine;
+    margin-left: 0px;
+    width: 105%;
+    font-weight: 600;
+  }
+
+  .agreementButton2:hover {
+    cursor: pointer;
+  }
+
+  .agreementButtonNotActive1 {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    text-align: center;
+    padding-top: 0.55em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.67em;
+    margin-top: 0.5em;
+    font-family: Domine;
+    font-weight: 600;
+  }
+  .agreementButtonNotActive1:hover {
+    cursor: pointer;
+  }
+
+  .agreementButtonNotActive2 {
+    background: #f7f3f2;
+    color: #707070;
+    border-width: 2px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    font-size: 0.67em;
+    font-weight: 600;
+  }
+  .agreementButtonNotActive2:hover {
+    cursor: pointer;
+  }
+
+  .agreementPolicy {
+    border-width: 1px;
+    border-color: #d8c5a6;
+    border-style: solid;
+    background: white;
+    width: initial;
+    height: 137vw;
+    margin-top: 1em;
+    overflow-y: scroll;
+    font-family: Domine;
+    padding: 1em;
+  }
+  .agreementTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .acceptAgreement {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  .checkBoxAccept {
+    margin-top: -0.2em !important;
+  }
+  .mobileAgreementButtonWidth {
+    width: 49%;
+  }
+  .mobileAcceptCheckBox {
+    font-size: 12px;
+    font-family: oswald;
+  }
+  .mobileAcceptCheckBox1 {
+    margin-left: 30px;
+    margin-top: -30px;
+  }
+  .agreementData {
+    font-size: 0.8em;
+  }
+  .mobileAgreementLeftMargin {
+    margin-left: -1em;
+  }
+  .AGhead1 {
+    font-size: 28px;
+    font-weight: "bold";
+    font-family: oswald;
+  }
+  .downloadButton {
+    cursor: pointer;
+    background: #e8e0dd;
+    font-family: oswald;
+    text-align: center;
+    margin-top: 1em;
+    width: initial;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #6e7071;
+    border: 1px solid #5d6163;
+    font-size: 14px;
+  }
+}

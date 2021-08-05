@@ -1,0 +1,400 @@
+.purchaseComponentMargin1 {
+  margin-top: 32px;
+}
+.purchaseComponentMargin2 {
+  overflow: hidden;
+  margin-top: 32px;
+}
+.PKmobileComponent {
+  margin-top: 7em;
+}
+.PKcheckBoxAccept {
+  margin-top: -0.2em !important;
+  margin-left: -13px !important;
+}
+
+.totalPanel {
+  background: #e8e0dd;
+  margin-top: 16px;
+  padding: 16px;
+  font-family: Domine;
+  /* width: 65vw; */
+  width: 65vw;
+}
+.subTotalText {
+  font-size: 20px;
+}
+.subTotalMoney {
+  font-size: 20px;
+  text-align: right;
+}
+.totalText {
+  font-size: 16px;
+}
+.totalMoney {
+  font-size: 16px;
+  text-align: right;
+}
+.totalResultPanel {
+  background: #241f20;
+  padding: 15px;
+  font-family: Domine;
+  width: 65vw;
+  /* width: 1248px; */
+}
+.ResultText {
+  font-size: 24px;
+  color: white;
+}
+.ResultMoney {
+  font-size: 24px;
+  color: white;
+  text-align: right;
+}
+.totalSubText {
+  margin-top: 12px;
+  color: #241f20;
+  font-size: 12px;
+  /* width: 65vw; */
+  width: 1248px;
+  font-family: Domine !important;
+}
+.paymentHead {
+  font-family: oswald;
+  margin-top: 16px;
+  font-size: 32px;
+}
+.purchaseInputMargin {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.purchaseInputMargin1 {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.purchasehead3 {
+  color: grey;
+  font-family: oswald;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.purchasehead4 {
+  color: grey;
+  font-family: oswald;
+  font-size: 16px;
+  margin-bottom: 12px;
+  margin-left: 45px !important;
+}
+.purchaseInput {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 90% !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  margin-top: 8px !important;
+}
+.purchaseInput:focus {
+  border-color: #d8c5a6 !important;
+}
+.purchaseRed {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 90% !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  margin-top: 8px !important;
+}
+
+.purchaseRed:focus {
+  border-color: red !important;
+}
+.errorMes {
+  font-size: 12px;
+  color: red;
+  font-family: Domine;
+  width: 272px;
+}
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.purchaseInput1 {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 100% !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  margin-top: 8px !important;
+}
+.purchaseInput1:focus {
+  border-color: #d8c5a6 !important;
+}
+.purchaseRed1 {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 100% !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  margin-top: 8px !important;
+}
+.purchaseRed1:focus {
+  border-color: red !important;
+}
+.billingAddressoffset {
+  margin-left: 0;
+  margin-top: 16px;
+  margin-bottom: 160px;
+}
+.billingHead {
+  font-family: oswald;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #241f20;
+}
+.acceptBillingAddress {
+  margin-top: 8px;
+  font-weight: bold;
+}
+.billingText {
+  font-family: oswald;
+  font-size: 14px;
+  color: #241f20;
+  font-weight: 300;
+}
+.purchaseInput2 {
+  border-width: 1px;
+  border-color: #d8c5a6 !important;
+  border-radius: 0 !important;
+  width: 100% !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  margin-left: 45px !important;
+  margin-top: 8px !important;
+}
+.purchaseInput2:focus {
+  border-color: #d8c5a6 !important;
+}
+.purchaseRed2 {
+  border-width: 1px;
+  border-color: red !important;
+  border-radius: 0 !important;
+  width: 100% !important;
+  height: 64px !important;
+  margin-bottom: 8px;
+  margin-left: 45px !important;
+  margin-top: 8px !important;
+}
+.purchaseRed2:focus {
+  border-color: red !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .purchaseInput2 {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 246px !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+  .purchaseInput2:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .purchaseRed2 {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 246px !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+  .purchaseRed2:focus {
+    border-color: red !important;
+  }
+  .billingAddressoffset {
+    margin-left: 0;
+    margin-top: 16px;
+    margin-bottom: 160px;
+  }
+  .purchaseInputMargin1 {
+    margin-bottom: 16px;
+    margin-top: 8px;
+    margin-left: 0;
+  }
+  .desktopViewMarginLeft {
+    margin-left: 0;
+  }
+  .purchaseComponentMargin1 {
+    margin-top: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .purchaseComponentMargin2 {
+    overflow: hidden;
+    margin-top: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .totalPanel {
+    background: #e8e0dd;
+    margin-top: 16px;
+    padding: 16px;
+    font-family: Domine;
+    width: 80vw;
+  }
+  .totalResultPanel {
+    background: #241f20;
+    padding: 15px;
+    font-family: Domine;
+    width: 80vw;
+  }
+  .totalSubText {
+    margin-top: 12px;
+    color: #241f20;
+    font-size: 12px;
+    /* width: 65vw; */
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .purchaseInput {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 90vw !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+  .purchaseInput:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .purchaseRed {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 90vw !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+
+  .purchaseRed:focus {
+    border-color: red !important;
+  }
+  .purchaseInput1 {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 40vw !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+  .purchaseInput1:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .purchaseRed1 {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 40vw !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+  .purchaseRed1:focus {
+    border-color: red !important;
+  }
+  .purchaseInput2 {
+    border-width: 1px;
+    border-color: #d8c5a6 !important;
+    border-radius: 0 !important;
+    width: 168px !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+  .purchaseInput2:focus {
+    border-color: #d8c5a6 !important;
+  }
+  .purchaseRed2 {
+    border-width: 1px;
+    border-color: red !important;
+    border-radius: 0 !important;
+    width: 168px !important;
+    height: 64px !important;
+    margin-bottom: 8px;
+  }
+  .purchaseRed2:focus {
+    border-color: red !important;
+  }
+  .billingAddressoffset {
+    margin-left: 0;
+    margin-top: 16px;
+    margin-bottom: 160px;
+  }
+  .mobileMMYY {
+    width: 32vw;
+  }
+  .mobileCVV {
+    width: 30vw;
+  }
+  .mobileTotalTitle {
+    width: 88px;
+  }
+  .mobileTotalValue {
+    width: 80px;
+    margin-left: 41vw;
+    text-align: right;
+  }
+  .mobileTotalPanel {
+    width: 368px;
+  }
+  .subTotalText {
+    font-size: 16px;
+  }
+  .subTotalMoney {
+    font-size: 16px;
+    text-align: right;
+    margin-left: -15vw;
+  }
+  .totalText {
+    font-size: 12px;
+  }
+  .totalMoney {
+    font-size: 12px;
+    text-align: right;
+  }
+  .ResultText {
+    font-size: 17px;
+    color: white;
+  }
+  .ResultMoney {
+    margin-left: -32px;
+    font-size: 17px;
+    color: white;
+    text-align: right;
+  }
+  .paymentHead {
+    font-family: oswald;
+    margin-top: 32px;
+    font-size: 24px;
+  }
+  .totalPanel {
+    background: #e8e0dd;
+    margin-top: 16px;
+    padding: 16px;
+    font-family: Domine;
+    width: 90vw;
+  }
+  .totalResultPanel {
+    background: #241f20;
+    padding: 15px;
+    font-family: Domine;
+    width: 90vw;
+  }
+  .PKcheckBoxAccept {
+    margin-top: -0.2em !important;
+    margin-left: -11px !important;
+  }
+}

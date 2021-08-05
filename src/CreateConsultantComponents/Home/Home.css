@@ -1,0 +1,162 @@
+.loader {
+  z-index: 1;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+}
+
+.fontOswald {
+  font-family: oswald;
+  font-size: 18px;
+}
+.fontOswald1 {
+  font-family: oswald;
+  font-size: 50px;
+}
+.arrowIcon3 {
+  margin-top: 5px;
+  text-align: right;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.arrowIcon3 svg {
+  width: 35px;
+  height: 80px;
+}
+.headerMarginTop {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #e8e0dd;
+}
+.stepperMarginTop {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 6% !important;
+}
+.Home-step-1 {
+  border: 0 solid white;
+  color: black;
+  border-radius: 0;
+}
+.MuiStepIcon-root-53.MuiStepIcon-active-54 .MuiStepIcon-text-54 {
+  fill: #034691 !important;
+}
+.HomeContainer {
+  padding-bottom: 30px;
+}
+/* @media only screen and (max-width: 550px) {
+  .mobileMargin {
+    margin-bottom: 10vh;
+    margin-left: -5vw;
+  }
+  .mobileStep {
+    margin-left: 10vw;
+  }
+  .mobileStepHead {
+    margin-left: 15vw;
+    font-size: 3vh;
+    font-family: oswald;
+    font-weight: 400;
+  }
+} */
+
+.LogoIcon {
+  cursor: pointer !important;
+}
+
+@media (max-width: 1199px) {
+  .fontOswald {
+    font-size: 15px;
+  }
+  .MuiStepper-horizontal {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .LogoIcon {
+    text-align: center;
+  }
+  .stepperMarginTop {
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0% !important;
+  }
+  .MuiStepper-root {
+    padding: 15px 0 15px 0 !important;
+  }
+  .arrowIcon3 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .arrowIcon3 {
+    text-align: left;
+  }
+  .HomeContainer {
+    padding-left: 20px;
+    overflow: hidden;
+  }
+  .stepperMarginTop {
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0% !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .fontOswald {
+    font-size: 13px;
+  }
+}
+@media (max-width: 567px) {
+  .headerMarginTop {
+    background: transparent !important;
+  }
+  .stepperMarginTop {
+    display: none;
+  }
+  .btm-list-blk {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    margin-top: 30px;
+    background: rgb(232, 224, 221);
+    margin-left: -20px;
+    margin-right: -15px;
+    padding-left: 10px;
+  }
+  .btm-list-blk .btm-list-inner {
+    padding-left: 30px;
+  }
+  .btm-list-blk .btm-list-inner {
+    font-family: oswald;
+    font-weight: bold;
+  }
+  .mobileStep {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .arrowIcon3 svg {
+    height: 22px;
+    margin-top: 0.5em;
+  }
+  .mobileStepHead {
+    font-family: oswald;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .loader {
+    z-index: 1;
+    position: absolute;
+    bottom: 50%;
+    right: 40%;
+  }
+}
+.MuiStepIcon-text {
+  fill: black !important ;
+}
+.MuiStepIcon-active > .MuiStepIcon-text {
+  fill: white !important ;
+}

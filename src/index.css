@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+input::placeholder {
+  color: #85807e !important;
+  font-family: Domine !important;
+  font-weight: 600 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  font-family: Domine !important;
+  font-weight: 600 !important;
+}
+#amp path {
+  fill: white !important;
+}
+*:focus {
+  outline: none !important;
 }
