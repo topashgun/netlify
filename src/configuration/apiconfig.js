@@ -15,7 +15,7 @@ export async function callEndpoint(methodType, authorisationType, URL, data) {
     } else {
       return new Promise((resolve, reject) => {
         axios({
-          url: "https://tower-staging.scoutandcellar.com" + URL,
+          url: "http://35.222.52.87" + URL,
           method: methodType,
           headers: {
             Authorization: "Bearer " + getCookie("accessToken"),
@@ -93,7 +93,7 @@ export async function getAccessToken(username, password, keepmesignedin = true) 
   };
   return new Promise((resolve, reject) => {
     axios({
-      url: "https://tower-staging.scoutandcellar.com/api/v1/users/login",
+      url: "http://35.222.52.87/api/v1/users/login",
       method: "POST",
       headers: headerObject,
       data: data,
@@ -115,7 +115,7 @@ function getRefreshToken() {
   data.refreshToken = getCookie("refreshToken");
   return new Promise((resolve, reject) => {
     axios({
-      url: "https://tower-staging.scoutandcellar.com/api/v1/users/refreshToken",
+      url: "http://35.222.52.87/api/v1/users/refreshToken",
       method: "POST",
       headers: {Authorization: headerDetails},
       data: data,
